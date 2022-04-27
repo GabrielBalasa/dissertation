@@ -1,0 +1,99 @@
+@import '../includes/variables.css';
+
+.logo {
+    color: var(--green);
+}
+
+.btn {
+    border-radius: 25px;
+}
+
+.primary-btn {
+    color: var(--light);
+    background-color: var(--green);
+    padding: 4px 20px;
+}
+
+.primary-btn:hover{
+    color: var(--light);
+    background-color: var(--orange);
+}
+
+.secondary-btn {
+    border-color: var(--green);
+    color: var(--green);
+    padding: 4px 20px;
+}
+
+.secondary-btn:hover{
+    color: var(--light);
+    background-color: var(--green);
+}
+
+.banner{
+    background-image: conic-gradient(var(--green), var(--light));
+    background: url("../images/big.jpeg") no-repeat center fixed;
+    background-size: cover;
+    height: 90vh;
+}
+
+.imageOne{
+    background: url("../images/three.jpeg") no-repeat center fixed;
+    background-size: cover;
+    height:60vh;
+}
+
+.imageTwo{
+    background: url("../images/one.jpeg") no-repeat center fixed;
+    background-size: cover;
+    height:60vh;
+}
+
+.textOne{
+    background-color: var(--green);
+    background-size: cover;
+    height:60vh;
+}
+
+.textTwo{
+    background-color:var(--dark);
+    background-size: cover;
+    height:60vh;
+}
+
+.verticalHeight20 {
+    max-height: 5px;
+}
+ 
+ /* About us page */
+ 
+ .more{
+     border-top: 50px solid var(--green);
+     border-bottom: 50px solid var(--green);
+ }
+ 
+ .aboutus img{
+     padding-top: 40px;
+     max-width: 500px;
+     height: auto;
+ }
+ 
+.w-10{width:10%!important}
+
+.w-5{width:5%!important}
+
+.w-65{width:65%!important}
+
+.w-85{width:85%!important}
+
+.w-80{width:80%!important}
+
+.w-35{width:35%!important}
+
+.w-40{width:40%!important}
+
+.h-80{height:80%!important}
+
+.h-90{height:90%!important}
+
+.h-93{height:93%!important}
